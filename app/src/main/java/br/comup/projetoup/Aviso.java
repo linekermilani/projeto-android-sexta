@@ -21,15 +21,15 @@ public class Aviso {
         ArrayList<Aviso> avisos = new ArrayList<>();
 
         Aviso aviso = new Aviso();
-        aviso.setMensagem("Teste 1");
+        aviso.setMensagem("Na sexta-feira (16/04) não teremos aula");
         avisos.add(aviso);
 
         aviso = new Aviso();
-        aviso.setMensagem("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+        aviso.setMensagem("Desejamos a todos uma feliz páscoa!");
         avisos.add(aviso);
 
         aviso = new Aviso();
-        aviso.setMensagem("Teste 3");
+        aviso.setMensagem("Na quinta-feira (21/04) e na sexta-feira (22/04) não teremos aula, retornamos as atividades na segunda-feira dia (25/04)");
         avisos.add(aviso);
 
         return avisos;
